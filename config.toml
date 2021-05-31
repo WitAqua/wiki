@@ -2,5 +2,6 @@ baseURL = "http://witaqua.github.io/wiki"
 languageCode = "en-us"
 title = "WitAqua Wiki"
 theme = "hugo-theme-learn"
+publishDir = "docs" 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
