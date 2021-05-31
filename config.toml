@@ -1,4 +1,4 @@
-baseURL = "http://witaqua.github.io/wiki"
+baseURL = "http://witaqua.github.io/wiki/"
 languageCode = "en-us"
 title = "WitAqua Wiki"
 theme = "hugo-theme-learn"
