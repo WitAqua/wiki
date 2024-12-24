@@ -12,7 +12,10 @@ export default defineConfig({
       {
         text: "Home",
         collapsed: false,
-        items: [{ text: "Building WitAqua", link: "/developers/building" }],
+        items: [
+          { text: "Building WitAqua", link: "/developers/building" },
+          { text: "Adding Your Device to WitAqua OTA", link: "/developers/adding-ota" }
+        ],
       },
     ],
 
