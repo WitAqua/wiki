@@ -3,7 +3,7 @@ layout: doc
 prev: false
 next: false
 ---
-![WitAqua](assets/witaqua.svg)
+![WitAqua](/assets/witaqua.svg)
 
 <h1 align="center">Getting Started</h1>
 <br />
