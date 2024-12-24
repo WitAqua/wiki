@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "Wiki",
-  description: "WitAqua Wiki",
+  description: "Welcome to WitAqua Wiki!",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     logo: "/assets/witaqua.png",
