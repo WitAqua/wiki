@@ -8,7 +8,7 @@ next: false
 <h1 align="center">Getting Started</h1>
 <br />
 <div class="card-container">
-  <a href="/installation" class="card">
+  <a href="/devices/install" class="card">
     <h2>Installation</h2>
     <p class="description">How to install WitAqua for your device.</p>
   </a>

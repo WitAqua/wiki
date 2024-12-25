@@ -1,7 +1,7 @@
 # Installation Guide
 Thank you for choosing **WitAqua**!
 
-Before you start the installation, make sure your device is supported. Please visit our [Supported Devices](/devices/) Page to see a list of officially supported devices. The page is regularly updated with new devices that receive support from WitAqua.
+Before you start the installation, make sure your device is supported. This page will list of officially supported devices. The page is regularly updated with new devices that receive support from WitAqua.
 
 ::: info
 - Find your device model in the list. If it's listed, you can proceed with installation. If not, check for unofficial builds or consider build it by yourself.
@@ -11,3 +11,6 @@ Before you start the installation, make sure your device is supported. Please vi
 - If you encounter any issues during installation, be sure to check the installation for your specific device.
 support.
 :::
+
+## Google
+- [Pixel 6a](/devices/bluejay) <Badge type="info" text="bluejay" />
