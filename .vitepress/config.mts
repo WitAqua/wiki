@@ -14,7 +14,11 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Building WitAqua", link: "/developers/building" },
-          { text: "Adding Your Device to WitAqua OTA", link: "/developers/adding-ota" }
+          { text: "Building WitAqua Wiki", link: "/developers/building-wiki" },
+          {
+            text: "Adding Your Device to WitAqua OTA",
+            link: "/developers/adding-ota",
+          },
         ],
       },
     ],
