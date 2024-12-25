@@ -10,11 +10,11 @@ next: false
 <div class="card-container">
   <a href="/installation" class="card">
     <h2>Installation</h2>
-    <p class="description">How to install WitAqua on your device.</p>
+    <p class="description">How to install WitAqua for your device.</p>
   </a>
   <a href="/developers/building" class="card">
     <h2>Building</h2>
-    <p class="description">How to build WitAqua on your device.</p>
+    <p class="description">How to build.</p>
   </a>
 </div>
 
