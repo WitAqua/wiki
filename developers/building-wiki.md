@@ -15,11 +15,11 @@ Follow these steps to set up your project.
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone "http://gerrit.witaqua.org/wiki" && (cd "wiki" && mkdir -p `git rev-parse --git-dir`/hooks/ && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
+git clone "ssh://username@gerrit.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p `git rev-parse --git-dir`/hooks/ && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
 ```
 If you're using zsh:
 ```zsh
-git clone "http://gerrit.witaqua.org/wiki" && (cd "wiki" && mkdir -p "$(git rev-parse --git-dir)/hooks/" && curl -Lo "$(git rev-parse --git-dir)/hooks/commit-msg" http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x "$(git rev-parse --git-dir)/hooks/commit-msg")
+git clone "ssh://username@gerrit.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p "$(git rev-parse --git-dir)/hooks/" && curl -Lo "$(git rev-parse --git-dir)/hooks/commit-msg" http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x "$(git rev-parse --git-dir)/hooks/commit-msg")
 ```
 
 ### 2. Install Dependencies
