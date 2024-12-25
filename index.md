@@ -12,7 +12,7 @@ next: false
     <h2>Installation</h2>
     <p class="description">How to install WitAqua for your device.</p>
   </a>
-  <a href="/developers/building" class="card">
+  <a href="/developers" class="card">
     <h2>Building</h2>
     <p class="description">How to build.</p>
   </a>
