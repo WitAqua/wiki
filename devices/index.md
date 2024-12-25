@@ -1,8 +1,3 @@
----
-title: "List of Supported Devices"
-prev: false
-next: false
----
 # List of Supported Devices
 
 ## Google

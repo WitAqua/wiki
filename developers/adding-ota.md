@@ -1,7 +1,3 @@
----
-prev: false
-next: false
----
 # Adding Your Device to WitAqua OTA
 We are excited to offer you the opportunity to add your device to our OTA update system. This guide will walk you through the process of adding your device to the OTA, structuring the necessary files, and ensuring that everything works smoothly.
 

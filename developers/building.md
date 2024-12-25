@@ -1,4 +1,5 @@
-# Prerequisites
+# Building WitAqua
+## Prerequisites
 Before you begin, it is essential to ensure that your machine meets the necessary requirements and has the required dependencies installed.
 
 ## Initialize the Repository

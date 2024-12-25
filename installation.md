@@ -1,9 +1,5 @@
----
-prev: false
-next: false
----
 # Installation Guide
-Thank you for choosing **WitAqua**!  
+Thank you for choosing **WitAqua**!
 
 Before you start the installation, make sure your device is supported. Please visit our [Supported Devices](/devices/) Page to see a list of officially supported devices. The page is regularly updated with new devices that receive support from WitAqua.
 
@@ -12,6 +8,6 @@ Before you start the installation, make sure your device is supported. Please vi
 
 - Follow any additional specific installation instructions listed for your device. Some devices may have unique steps.
 
-- If you encounter any issues during installation, be sure to check the installation for your specific device. 
+- If you encounter any issues during installation, be sure to check the installation for your specific device.
 support.
 :::
