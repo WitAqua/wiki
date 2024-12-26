@@ -28,6 +28,10 @@ export default defineConfig({
           },
         ],
         nav: [{ text: "Website", link: "https://witaqua.org" }],
+        socialLinks: [
+          { icon: "github", link: "https://github.com/WitAqua" },
+          { icon: "x", link: "https://x.com/WitAquaROM" },
+        ],
       },
     },
     ja: {
@@ -53,6 +57,10 @@ export default defineConfig({
           },
         ],
         nav: [{ text: "ウェブサイト", link: "https://witaqua.org" }],
+        socialLinks: [
+          { icon: "github", link: "https://github.com/WitAqua" },
+          { icon: "x", link: "https://x.com/WitAquaROM" },
+        ],
       },
     },
   },
