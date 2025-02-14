@@ -5,7 +5,7 @@ next: false
 ---
 ![WitAqua](/assets/witaqua.svg)
 
-<h1 align="center">始め方</h1>
+<h1 align="center">始めましょう</h1>
 <br />
 <div class="card-container">
   <a href="/ja/devices/install" class="card">

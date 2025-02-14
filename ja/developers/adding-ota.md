@@ -2,7 +2,7 @@
 私たちは、あなたのデバイスをOTAシステムに追加する機会を提供できることを嬉しく思います。このガイドでは、デバイスをOTAに追加するプロセス、必要なファイルの構造化、およびすべてがスムーズに動作することを確認する方法について説明します。
 
 ### フォルダ構造について
-デバイスをOTAシステムに適切に統合するには、特定のフォルダ構造に従う必要があります。以下は、使用するフォルダ構造です：
+デバイスをOTAシステムに適切に統合するには、特定のフォルダ構造に従う必要があります。以下は、使用するフォルダ構造です。
 ```
 /$codename.json
 /changelog/$codename
@@ -32,7 +32,7 @@
 
 - `timestamp`: これはUnixタイムスタンプで表されたビルド日時です。
 ::: tip
-次のコマンドで取得できます：
+次のコマンドで取得できます。
 ```bash
 cat out/target/product/$codename/system/build.prop | grep "ro.build.date.utc"
 ```
@@ -41,7 +41,7 @@ cat out/target/product/$codename/system/build.prop | grep "ro.build.date.utc"
 - `filename`: OTAアップデートファイルの名前。
 - `md5`: MD5値は通常、ファイルのハッシュまたはチェックサムであり、整合性検証に使用されます。
 ::: tip
-ハッシュ値は次のコマンドで取得できます
+ハッシュ値は次のコマンドで取得できます。
 ```bash
 md5sum out/target/product/$codename/WitAqua-*-OFFICIAL.zip
 ```
@@ -76,7 +76,7 @@ ls -l WitAqua-*-OFFICIAL.zip | awk '{print $5}'
 ---
 
 ### 3. `/data/devices.json`
-このファイルには、ウェブサイトに追加したい各デバイスのメタデータが含まれています。デバイス情報を保存するために、次のJSON形式を使用します：
+このファイルには、ウェブサイトに追加したい各デバイスのメタデータが含まれています。デバイス情報を保存するために、次のJSON形式を使用します。
 
 ```json
 {
