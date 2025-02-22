@@ -14,3 +14,6 @@ support.
 
 ## Google
 - [Pixel 6a](/devices/bluejay) <Badge type="info" text="bluejay" />
+
+## Xiaomi
+- [Mi 8](/devices/dipper) <Badge type="info" text="dipper" />

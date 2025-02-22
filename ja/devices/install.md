@@ -13,3 +13,6 @@
 
 ## Google
 - [Pixel 6a](/ja/devices/bluejay) <Badge type="info" text="bluejay" />
+
+## Xiaomi
+- [Mi 8](/ja/devices/dipper) <Badge type="info" text="dipper" />
