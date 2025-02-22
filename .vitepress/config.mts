@@ -15,10 +15,13 @@ export default defineConfig({
           {
             text: "Home",
             items: [
-              { text: "Building WitAqua", link: "/developers/building" },
+              {
+                text: "Building WitAqua",
+                link: "/developers/building/witaqua",
+              },
               {
                 text: "Building WitAqua Wiki",
-                link: "/developers/building-wiki",
+                link: "/developers/building/witaqua-wiki",
               },
               {
                 text: "Adding Your Device to WitAqua OTA",
@@ -44,10 +47,13 @@ export default defineConfig({
           {
             text: "ホーム",
             items: [
-              { text: "WitAqua をビルドする", link: "/ja/developers/building" },
+              {
+                text: "WitAqua をビルドする",
+                link: "/ja/developers/building/witaqua",
+              },
               {
                 text: "WitAqua ビルド Wiki",
-                link: "/ja/developers/building-wiki",
+                link: "/ja/developers/building/witaqua-wiki",
               },
               {
                 text: "WitAqua OTA にデバイスを追加する",

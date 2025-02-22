@@ -4,5 +4,5 @@ next: false
 ---
 # List of Building Guides
 Here’s a detailed list of guides to help you navigate the process effectively:
-- [WitAqua](/developers/building)
-- [WitAqua Wiki](/developers/building-wiki)
+- [WitAqua](/developers/building/witaqua)
+- [WitAqua Wiki](/developers/building/witaqua-wiki)
