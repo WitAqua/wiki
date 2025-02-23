@@ -13,7 +13,7 @@ export default defineConfig({
         logo: "/assets/witaqua.png",
         sidebar: [
           {
-            text: "Home",
+            text: "General",
             items: [
               {
                 text: "Building WitAqua",
