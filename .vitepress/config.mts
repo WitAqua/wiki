@@ -29,6 +29,23 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Maintainership",
+            items: [
+              {
+                text: "Requirements",
+                link: "/developers/maintainership/requirements",
+              },
+              {
+                text: "Code of Conduct and Guidelines",
+                link: "/developers/maintainership/code-of-conduct-and-guidelines",
+              },
+              {
+                text: "Apply",
+                link: "/developers/maintainership/apply",
+              },
+            ],
+          },
         ],
         nav: [{ text: "Website", link: "https://witaqua.org" }],
         socialLinks: [
