@@ -58,23 +58,40 @@ export default defineConfig({
       label: "日本語",
       lang: "ja",
       themeConfig: {
-        siteTitle: "ウィキ",
+        siteTitle: "Wiki",
         logo: "/assets/witaqua.png",
         sidebar: [
           {
             text: "ホーム",
             items: [
               {
-                text: "WitAqua をビルドする",
+                text: "WitAqua をビルド",
                 link: "/ja/developers/building/witaqua",
               },
               {
-                text: "WitAqua ビルド Wiki",
+                text: "WitAqua Wikiをビルド",
                 link: "/ja/developers/building/witaqua-wiki",
               },
               {
-                text: "WitAqua OTA にデバイスを追加する",
+                text: "WitAqua OTAにデバイスを追加する",
                 link: "/ja/developers/adding-ota",
+              },
+            ],
+          },
+          {
+            text: "メンテナーシップ",
+            items: [
+              {
+                text: "必須要件",
+                link: "/ja/developers/maintainership/requirements",
+              },
+              {
+                text: "行動規範とガイドライン",
+                link: "/ja/developers/maintainership/code-of-conduct-and-guidelines",
+              },
+              {
+                text: "メンテナへの応募",
+                link: "/ja/developers/maintainership/apply",
               },
             ],
           },

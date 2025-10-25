@@ -14,7 +14,7 @@ cd ~/witaqua
 Now initialize the repo:
 
 ```bash
-repo init -u https://github.com/WitAqua/manifest.git -b 15 --git-lfs
+repo init -u https://github.com/WitAqua/manifest.git -b 16.0 --git-lfs
 ```
 
 ## Sync the Repository

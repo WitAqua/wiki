@@ -14,7 +14,7 @@ cd ~/witaqua
 リポジトリを初期化します。
 
 ```bash
-repo init -u https://github.com/WitAqua/manifest.git -b 15.1 --git-lfs
+repo init -u https://github.com/WitAqua/manifest.git -b 16.0 --git-lfs
 ```
 
 ## リポジトリの同期
