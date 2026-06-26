@@ -15,11 +15,11 @@
 まず、リポジトリをローカルマシンにクローンします。
 
 ```bash
-git clone "ssh://username@gerrit.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p `git rev-parse --git-dir`/hooks/ && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
+git clone "ssh://username@review.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p `git rev-parse --git-dir`/hooks/ && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg http://review.witaqua.org/tools/hooks/commit-msg && chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
 ```
 zshを使用している場合:
 ```zsh
-git clone "ssh://username@gerrit.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p "$(git rev-parse --git-dir)/hooks/" && curl -Lo "$(git rev-parse --git-dir)/hooks/commit-msg" http://gerrit.witaqua.org/tools/hooks/commit-msg && chmod +x "$(git rev-parse --git-dir)/hooks/commit-msg")
+git clone "ssh://username@review.witaqua.org:29418/wiki" && (cd "wiki" && mkdir -p "$(git rev-parse --git-dir)/hooks/" && curl -Lo "$(git rev-parse --git-dir)/hooks/commit-msg" http://review.witaqua.org/tools/hooks/commit-msg && chmod +x "$(git rev-parse --git-dir)/hooks/commit-msg")
 ```
 
 ### 2. 依存関係のインストール
