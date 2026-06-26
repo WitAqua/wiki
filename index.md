@@ -2,6 +2,26 @@
 layout: doc
 prev: false
 next: false
+head:
+  - - script
+    - {}
+    - |
+      (function() {
+        if (sessionStorage.getItem('lang_redirected')) {
+          return;
+        }
+
+        var path = window.location.pathname;
+        if (path === '/' || path === '/index.html') {
+          var userLang = navigator.language || navigator.userLanguage;
+
+          sessionStorage.setItem('lang_redirected', 'true');
+
+          if (userLang.startsWith('ja')) {
+            window.location.replace('/ja/');
+          }
+        }
+      })();
 ---
 ![WitAqua](/assets/witaqua.svg)
 
