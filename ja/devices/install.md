@@ -16,3 +16,9 @@
 
 ## Xiaomi
 - [Mi 8](/ja/devices/dipper) <Badge type="info" text="dipper" />
+
+## FCNT
+- [arrows Alpha](/devices/fuji) <Badge type="info" text="fuji" />
+
+## Rakuten
+- [Rakuten Mini](/devices/c330ae) <Badge type="info" text="c330ae" />
