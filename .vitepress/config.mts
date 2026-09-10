@@ -23,10 +23,6 @@ export default defineConfig({
                 text: "Building WitAqua Wiki",
                 link: "/developers/building/witaqua-wiki",
               },
-              {
-                text: "Adding Your Device to WitAqua OTA",
-                link: "/developers/adding-ota",
-              },
             ],
           },
           {
@@ -39,10 +35,6 @@ export default defineConfig({
               {
                 text: "Code of Conduct and Guidelines",
                 link: "/developers/maintainership/code-of-conduct-and-guidelines",
-              },
-              {
-                text: "Apply",
-                link: "/developers/maintainership/apply",
               },
             ],
           },
@@ -72,10 +64,6 @@ export default defineConfig({
                 text: "WitAqua Wikiをビルド",
                 link: "/ja/developers/building/witaqua-wiki",
               },
-              {
-                text: "WitAqua OTAにデバイスを追加する",
-                link: "/ja/developers/adding-ota",
-              },
             ],
           },
           {
@@ -88,10 +76,6 @@ export default defineConfig({
               {
                 text: "行動規範とガイドライン",
                 link: "/ja/developers/maintainership/code-of-conduct-and-guidelines",
-              },
-              {
-                text: "メンテナへの応募",
-                link: "/ja/developers/maintainership/apply",
               },
             ],
           },
