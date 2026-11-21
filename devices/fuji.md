@@ -30,9 +30,10 @@ ABC12345XYZ fastboot
 
 ## Flash Necessary Images
 ::: info
-Ensure the image file (`boot.img`, `init_boot.img`, and `vendor_boot.img`) is in the same directory as your terminal/command prompt. Then, execute the following command:
+Ensure the image file (`vbmeta.img`, `boot.img`, `init_boot.img`, and `vendor_boot.img`) is in the same directory as your terminal/command prompt. Then, execute the following command:
 :::
 ```bash
+fastboot flash vbmeta vbmeta.img
 fastboot flash boot boot.img
 fastboot flash init_boot init_boot.img
 fastboot flash vendor_boot vendor_boot.img
