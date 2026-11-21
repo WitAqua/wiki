@@ -29,14 +29,15 @@ ABC12345XYZ fastboot
 - 何も表示されない場合は、PCでFastbootが正しく設定されていること、USB接続を確認し、デバイスがFastbootモードにあることを確認してください。
 
 ## 必要なイメージの書き込み
-- イメージファイル（`boot.img`、`init_boot.img`、`vendor_boot.img`）がターミナル/コマンドプロンプトと同じディレクトリにあることを確認してください。
+- イメージファイル（`vbmeta.img`, `boot.img`、`init_boot.img`、`vendor_boot.img`）がターミナル/コマンドプロンプトと同じディレクトリにあることを確認してください。
 - 次のコマンドを実行します。
 ```bash
+fastboot flash vbmeta vbmeta.img
 fastboot flash boot boot.img
 fastboot flash init_boot init_boot.img
 fastboot flash vendor_boot vendor_boot.img
 ```
-- 3個のイメージをフラッシュしたら、音量キーを押して`RECOVERY MODE`に合わせ、電源キーでリカバリーに再起動します。
+- 4個のイメージをフラッシュしたら、音量キーを押して`RECOVERY MODE`に合わせ、電源キーでリカバリーに再起動します。
 
 ## データフォーマットの実行
 ::: warning
